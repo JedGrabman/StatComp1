@@ -26,15 +26,15 @@ automatically by MySQL if imported.
 
 Notes:
 
-    Routes are directional: if an airline operates services from A to B
+    Routes are directional: IF an airline operates services from A to B
     and from B to A, both A-B and B-A are listed separately. Routes
     where one carrier operates both its own and codeshare flights are
     listed only once.
+    These notes are super helpful, right?
 
 Sample entries:
     #+BEGIN_EXAMPLE
     BA,1355,SIN,3316,LHR,507,,0,744 777
-    BA,1355,SIN,3316,MEL,3339,Y,0,744
     TOM,5013,ACE,1055,BFS,465,,0,320
     #+END_EXAMPLE
 
